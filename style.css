@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  font-family: 'Rubik';
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.red{
+  color: #B73232;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(248, 234, 234, 1);
+  overflow-x: hidden;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  /* height: 110vh; */
+  border-bottom: 3px solid #B73232;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #494242;
+}
+
+.nav-link:hover {
+  color: #B73232;
+}
+
+.banner {
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 220px;
+}
+
+.banner-text {
+  font-family: 'Almarai';
+  position: relative;
+  left: 5px;
+  font-size: 3rem;
+  color: #F4C1C1;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.185em;
+}
+
+.banner-text-big {
+  font-family: 'Rubik';
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.banner-text-big:nth-child(0) {
+  letter-spacing: -0.065em;
+}
+
+.banner-text-big:nth-child(1) {
+  letter-spacing: -0.01em;
+}
+
+.watermark::before {
+  content: 'Mobile Developer';
+}
+
+.watermark {
+  position: absolute;
+  display: block;
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 245px;
+  line-height: 311px;
+  top: -130px;
+  left: -80px;
+  width: 200vw;
+  overflow-x: hidden;
+  text-overflow: clip;
+  -webkit-text-stroke: 1.5px #D59E9E;
+  color: rgba(248, 234, 234, 1);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  transform: rotate(-24.14deg);
+}
+
+
+.about-title { 
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  text-transform: uppercase;
+  letter-spacing: -0.065em;
+}
+
+.about-photo {
+  border: 5px solid #B73232;
+  box-sizing: border-box;
+  width: 327px;
+  height: 396px;
+}
+
+.about-photo div img {
+  position: relative;
+  top: -20px;
+  left: -30px;
+}
+
+.about-desc {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.07em;
+}
+
+.edu-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -0.065em;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.edu-line {
+  width: 75%;
+  border-bottom: 3px solid #686868;
+  text-align: end;
+}
+
+.edu-content {
+  width: 50%;
+}
+
+.edu-year {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.065em;
+  border-right: 1px solid #B73232;
+}
+
+.edu-caption {
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.065em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #494242;
+}
+
+.edu-desc {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.07em;
+  color: #434343;
+}
+
+
+.port-line {
+  /* width: 100%; */
+  font-size: 26px;
+  color: transparent;
+}
+
+.port-line div {
+  /* width: 100%; */
+  border-top: 1px solid #B73232;
+  border-bottom: 1px solid #B73232;
+}
+
+.port-text {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
+  letter-spacing: -0.065em;
+  text-transform: uppercase;
+}
