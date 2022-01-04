@@ -63,6 +63,7 @@ body {
 }
 
 .banner-text-big {
+  position: relative;
   font-family: 'Rubik';
   font-size: 8rem;
   text-transform: uppercase;
@@ -174,15 +175,16 @@ body {
   color: #434343;
 }
 
-
-.port-line {
-  /* width: 100%; */
-  font-size: 26px;
-  color: transparent;
+.port-title {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
-.port-line div {
-  /* width: 100%; */
+.port-line {
+  width: 100%;
+  height: 1.5rem;
+  font-size: 26px;
+  color: transparent;
   border-top: 1px solid #B73232;
   border-bottom: 1px solid #B73232;
 }
@@ -195,3 +197,33 @@ body {
   letter-spacing: -0.065em;
   text-transform: uppercase;
 }
+
+#banner-title {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#banner-text-big1 {
+  animation: slide 1s;
+}
+#banner-text-big2 {
+  animation: slide 2s;
+}
+
+@keyframes slide {
+  from {
+    left: 100px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* 
+.port-content {
+
+} */
