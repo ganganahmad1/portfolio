@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Almarai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 :root {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 12px;
   margin: 0;
   padding: 0;
 }
 
-.red{
-  color: #B73232;
+.red {
+  color: #b73232;
 }
 
 a {
@@ -28,7 +28,7 @@ body {
 }
 
 .header .container {
-  border-bottom: 3px solid #B73232;
+  border-bottom: 3px solid #b73232;
 }
 
 .navbar {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #B73232;
+  color: #b73232;
 }
 
 .banner {
@@ -54,11 +54,11 @@ body {
 }
 
 .banner-text {
-  font-family: 'Almarai';
+  font-family: "Almarai";
   position: relative;
   left: 5px;
   font-size: 3rem;
-  color: #F4C1C1;
+  color: #f4c1c1;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.185em;
@@ -66,7 +66,7 @@ body {
 
 .banner-text-big {
   position: relative;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 8rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -112,8 +112,7 @@ body {
   background-size: cover;
 }
 
-
-.about-title { 
+.about-title {
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
@@ -124,16 +123,18 @@ body {
 }
 
 .about-photo {
-  border: 5px solid #B73232;
+  border: 5px solid #b73232;
   box-sizing: border-box;
   width: 327px;
   height: 396px;
 }
 
-.about-photo div img {
+#photo {
   position: relative;
-  top: -20px;
-  left: -30px;
+  top: -5px;
+  left: -14px;
+  width: 327px;
+  height: 396px;
 }
 
 .about-desc {
@@ -166,7 +167,7 @@ body {
   font-size: 36px;
   line-height: 43px;
   letter-spacing: -0.065em;
-  border-right: 1px solid #B73232;
+  border-right: 1px solid #b73232;
 }
 
 .edu-caption {
@@ -185,6 +186,24 @@ body {
   color: #434343;
 }
 
+#edu-title {
+  position: relative;
+  top: 100px;
+  opacity: 0;
+}
+
+#edu-line {
+  position: relative;
+  left: 200px;
+  opacity: 0;
+}
+
+.edu-list {
+  position: relative;
+  bottom: 100px;
+  opacity: 0;
+}
+
 .port-title {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -195,8 +214,8 @@ body {
   height: 1.5rem;
   font-size: 26px;
   color: transparent;
-  border-top: 1px solid #B73232;
-  border-bottom: 1px solid #B73232;
+  border-top: 1px solid #b73232;
+  border-bottom: 1px solid #b73232;
 }
 
 .port-text {
@@ -208,13 +227,31 @@ body {
   text-transform: uppercase;
 }
 
+#port-left {
+  position: relative;
+  right: 300px;
+}
+
+#port-right {
+  position: relative;
+  left: 300px;
+}
+
+#port-title {
+  opacity: 0;
+}
+
 #banner-title {
   animation: fadein 2s;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #banner-text-big1 {
@@ -234,7 +271,7 @@ body {
 }
 
 .port-content {
-  border-top: 3px solid #B73232;
+  border-top: 3px solid #b73232;
 }
 
 .project-name {
@@ -243,6 +280,9 @@ body {
   line-height: 47px;
   letter-spacing: -0.065em;
   text-transform: uppercase;
+  position: relative;
+  bottom: 20px;
+  opacity: 0;
 }
 
 .project-platform {
@@ -250,6 +290,9 @@ body {
   line-height: 28px;
   letter-spacing: -0.065em;
   color: #434343;
+  position: relative;
+  top: 20px;
+  opacity: 0;
 }
 
 .port-content-desc {
@@ -272,7 +315,7 @@ body {
 }
 
 .contact {
-  background-color: #FFE0E0;
+  background-color: #ffe0e0;
 }
 
 .contact-title {
@@ -290,7 +333,7 @@ body {
 
 .contact-icon i {
   color: #fff;
-  background-color: #B73232;
+  background-color: #b73232;
   padding: 15px;
   border-radius: 50px;
 }
