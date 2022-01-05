@@ -159,7 +159,12 @@ body {
 }
 
 .edu-content {
-  width: 50%;
+  width: 60%;
+}
+
+.edu-list {
+  display: flex;
+  justify-content: space-around;
 }
 
 .edu-year {
@@ -168,6 +173,7 @@ body {
   line-height: 43px;
   letter-spacing: -0.065em;
   border-right: 1px solid #b73232;
+  text-align: right;
 }
 
 .edu-caption {
